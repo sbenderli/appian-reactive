@@ -19,7 +19,7 @@ public class AMQPThreadProducer {
 		Channel channel = AMQPCommon.connect();
 		while (true) {
 			long shares = ((long) ((new Random().nextDouble() * 4000) + 1));
-			String text = "BUY AAPL " + shares + " SHARES";
+			String text = "BUY,AAPL," + shares;
 			byte[] message = text.getBytes();
 			String routingKey = "trade.eq.q";
 			System.out.println("sending trade: " + text);

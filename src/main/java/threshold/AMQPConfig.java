@@ -1,10 +1,8 @@
 package threshold;
 
-import java.util.Arrays;
-import java.util.List;
-
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.QueueingConsumer;
+
 import common.AMQPCommon;
 
 public class AMQPConfig {

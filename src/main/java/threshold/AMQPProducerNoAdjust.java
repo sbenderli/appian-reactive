@@ -2,11 +2,7 @@ package threshold;
 
 import java.util.Random;
 
-import workflow.AMQPWorkflowProcessor;
-
 import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.QueueingConsumer;
 
 import common.AMQPCommon;
